@@ -13,8 +13,9 @@ export default function Landing() {
             <h2>
               Find Your Dream Book With <span className="purple">Library</span>
             </h2>
-            <Link to="#features">
-              <button className="btn">Browse Books</button>
+            
+            <Link to="/books" className="nav__link">
+            <button className="btn">Browse Books</button>
             </Link>
           </div>
           <figure className="header__img--wrapper">

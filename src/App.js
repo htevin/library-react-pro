@@ -46,7 +46,7 @@ function App() {
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route path="/" exact component={Home} />
-        <Route path='https://htevin.github.io/library-react-pro/' exact={Home}/>
+        <Route path='/library-react-pro' component={Home}/>
         <Route path="/books" exact render={() => <Books books={books} />} />
         <Route
           path="/books/:id"
