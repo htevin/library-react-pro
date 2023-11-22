@@ -10,7 +10,7 @@ export default function Explore() {
                 <h2>
                     Explore more <span className='purple'>Books</span>
                 </h2>
-                <Link path="/books">
+                <Link Link to="/books">
                     <button className="btn">Explore books</button>
                 </Link>
             </div>
