@@ -46,7 +46,8 @@ function App() {
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route path="/" exact component={Home} />
-        <Route path='/library-react-pro' component={Home}/>
+        <Route path='/library-react-pro' exact component={Home}/>
+        
         <Route path="/books" exact render={() => <Books books={books} />} />
         <Route
           path="/books/:id"
