@@ -20,7 +20,7 @@ export default function Footer() {
             <Link to="/cart" className="footer__link">Cart</Link>
           </div>
           <div className="footer__copyright">
-            Copyright © 2022 Library
+            Copyright © 2023 Library
           </div>
         </div>
       </div>
