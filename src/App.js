@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/library-react-pro">
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route path="/" exact component={Home} />
