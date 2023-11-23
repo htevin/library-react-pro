@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <Router basename="/library-react-pro">
+    <Router>
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route path="/" exact component={Home} />
@@ -55,7 +55,7 @@ function App() {
 
 
 
-        <Route path="/books" render={() => <Books books={books} />} />
+        <Route path="/books" exact render={() => <Books books={books} />} />
         <Route
           path="/books/:id"
           render={() => <BookInfo books={books} addToCart={addToCart} cart={cart}/>}
@@ -68,3 +68,5 @@ function App() {
 }
 
 export default App;
+
+
